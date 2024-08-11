@@ -20,8 +20,8 @@ function takevaluesix(getrandomvalue){
       return '#'+stringvalue;
       
 }
-btn.addEventListener('click',()=>{
-   let ans= takevaluesix(getrandomvalue)
-    p.innerHTML= ans;  
-    document.body.style.backgroundColor=ans;     
-})
+    btn.addEventListener('click',()=>{
+        let ans= takevaluesix(getrandomvalue)
+         p.innerHTML= ans;  
+         document.body.style.backgroundColor=ans;     
+     })
